@@ -708,22 +708,9 @@ section {
     color: var(--color-secondary);
     font-size: 40px;
     transition: ease-in-out 0.3s;
-    z-index: 2;
+    z-index: 1;
     position: relative;
     line-height: 1.8;
-}
-
-.services .service-item .icon:before {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: #f0f1f2;
-    border-radius: 50px;
-    z-index: 1;
-    top: 10px;
-    right: -15px;
-    transition: 0.3s;
 }
 
 .services .service-item h3 {
@@ -1367,7 +1354,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Servie Cards Section
+# Service Cards Section
 --------------------------------------------------------------*/
 
 .services-cards h3 {
@@ -1395,7 +1382,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Projet Details Section
+# Project Details Section
 --------------------------------------------------------------*/
 
 .project-details .portfolio-details-slider img {
