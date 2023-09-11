@@ -21,6 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Mobile nav toggle
    */
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 50) {
+        document.querySelector('#header').classList.add('header-scrolled');
+    } else {
+        document.querySelector('#header').classList.remove('header-scrolled');
+    }
+});
 
   const mobileNavShow = document.querySelector('.mobile-nav-show');
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
